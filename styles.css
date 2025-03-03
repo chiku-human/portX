@@ -1,6 +1,6 @@
 *{
-  overflow-y :none;
-    overflow-x :none;
+  overflow-y :hidden;
+    overflow-x :hidden;
 }
 
 HTML,body {

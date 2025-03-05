@@ -376,11 +376,11 @@ p {
 
 .dark {
     background: linear-gradient(155deg, 
-        rgba(150, 50, 50, 0.6) 10%, 
-        rgba(30, 60, 150, 0.7) 35%, 
-        rgba(0, 0, 0, 0.8) 60%, 
-        rgba(100, 100, 50, 0.4) 90%);
-    margin: 0;
-    height: 100vh;
+        rgba(20, 20, 40, 0.9) 10%,    /* Deep navy */
+        rgba(40, 10, 60, 0.8) 35%,    /* Dark purple */
+        rgba(0, 0, 0, 0.9) 60%,       /* Pure black */
+        rgba(10, 40, 50, 0.8) 90%);   /* Teal accent */
+margin: 0px;
+height: 100vh;
     color: white;
             }

@@ -349,7 +349,7 @@ p {
 .slider {
     width: 100vw;
     height: 100vh;
-    overflow-y: hidden;
+    overflow: hidden;
     border: 5px solid #333;
 }
 

@@ -89,7 +89,7 @@ body {
     text-align: center;
     top: 315px;
     font-size: 18px;
-    animation: slide-right 2s ease-out;
+    animation: slide-right 6s ease-out;
 }
 
 @keyframes slide-right {
@@ -396,3 +396,63 @@ margin: 0px;
 height: 100vh;
     color: white;
             }
+#mode:hover {
+  background-color :black;
+  color :white;
+}
+
+#start {
+  height : 100vh;
+  width :100%;
+  background-color : #FEE35A;
+  overflow : hidden;
+}
+
+
+@keyframes rotBGimg {
+
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card {
+    width: 190px;
+    height: 180px;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color : #2C3160;
+    margin-top : 65%;
+    margin-left :95px;
+}
+
+.card h2 {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 130%;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    animation: rotBGimg 2.5s linear infinite;
+    transition: all 0.3s ease-in-out;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    background: #07182e;
+    inset: 5px;
+    border-radius: 15px;
+}

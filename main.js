@@ -117,3 +117,17 @@ function shareText() {
         alert("This feature is not supported in your browser.");
     }
     }
+setTimeout(function() {
+            document.getElementById("mode").style.display = "block"; 
+        }, 4000); // 5000 milliseconds = 5 seconds
+        
+                setTimeout(function() {
+            document.getElementById("menu").style.display = "block"; 
+        }, 4000); // 5000 milliseconds = 5 seconds
+        
+                setTimeout(function() {
+            document.getElementById("end-space").style.display = "block"; 
+        }, 4000); // 5000 milliseconds = 5 seconds
+                setTimeout(function() {
+            document.getElementById("start").style.display = "none"; 
+        }, 4000); // 5000 milliseconds = 5 seconds

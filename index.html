@@ -13,6 +13,12 @@
     <!-- Slider Container -->
     <div class ="light">
     <div class="slider">
+              <div id ="start">
+            <div class ="card">
+        <h2>chiku</h2>
+      </div>
+    
+              </div>
         <!-- Slides Container -->
         <div class="slides">
             <!-- Slide 1: Introduction -->
@@ -188,8 +194,8 @@
         </div>
 
         <!-- Navigation Buttons -->
-        <button id="mode" class="fas fa-sun icon"></button>
-        <button id="menu" class="fas fa-bars"></button>
+        <button id="mode" class="fas fa-sun icon" style ="display:none;"></button>
+        <button id="menu" class="fas fa-bars" style ="display:none;"></button>
         <div id="a">
             <ul id="list">
                 <a href="index.html" class="nav"><li class="fas fa-home"></li></a>
@@ -201,9 +207,11 @@
     </div>
 
     <!-- Slider Arrows -->
+        <div id ="end-space" style ="display:none">
             <button class="right-arrow" onclick="prevSlide()">&#10094;</button>
-    <button class="left-arrow" onclick="nextSlide()">&#10095;</button>
-    <!-- External Script -->
+            <button class="left-arrow" onclick="nextSlide()">&#10095;</button>
+        </div>
+            <!-- External Script -->
     </div>
     <script src="main.js"></script>
 </body>

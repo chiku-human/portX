@@ -29,6 +29,10 @@ body {
     background-color: white;
     border-radius: 1000px;
 }
+#mode:hover {
+  background-color :white;
+  color :black;
+}
 
 /* Menu Button */
 #menu {
@@ -148,13 +152,19 @@ body {
     left : 175px;
     bottom : 40px;
 }
-
+.left-arrow:hover {
+  background-color: #745AED;
+    color: white;
+}
 .right-arrow {
     position :absolute;
     left : 90px;
     bottom :40px;
 }
-
+.right-arrow:hover {
+  background-color: #745AED;
+    color: white;
+}
 /* Images */
 .img {
     height: 150px;
@@ -272,7 +282,9 @@ p {
     padding: 14px;
     text-align: center;
 }
-
+.share-button:hover{
+  background-color : #8E909E;
+}
 /* Social Icons */
 .social-icon {
     height: 60px;
@@ -372,24 +384,8 @@ p {
         rgba(255, 255, 150, 0.6) 90%);
     margin: 0;
     height: 100vh;
-
-    .right-arrow:hover {
-  background-color: #745AED;
-    color: white;
-        }
-    .left-arrow:hover {
-  background-color: #745AED;
-    color: white;
-                             }
-    #mode:hover {
-  background-color: white;
-  color :black;
 }
-.share-button:hover{
-  background-color: #8E909E;
-  
-}
-
+    
 .dark {
     background: linear-gradient(155deg, 
         rgba(20, 20, 40, 0.9) 10%,    /* Deep navy */

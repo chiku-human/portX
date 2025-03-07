@@ -131,3 +131,22 @@ setTimeout(function() {
                 setTimeout(function() {
             document.getElementById("start").style.display = "none"; 
         }, 4000); // 5000 milliseconds = 5 seconds
+
+//babble efect
+
+        document.addEventListener('click', function(event) {
+        // बबल एलिमेंट बनाएं
+        const bubble = document.createElement('div');
+        bubble.classList.add('bubble');
+        bubble.style.left = `${event.clientX}px`;
+        bubble.style.top = `${event.clientY}px`;
+
+        // बबल को बॉडी में जोड़ें
+        document.body.appendChild(bubble);
+
+        // एनीमेशन खत्म होने पर बबल को हटाएं
+        bubble.addEventListener('animationend', () => {
+            bubble.remove();
+        });
+    });
+                           

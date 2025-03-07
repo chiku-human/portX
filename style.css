@@ -9,7 +9,7 @@ body {
     width:100vw;
     overflow: hidden;
     position: absolute;
-    font-family: Rubik;
+    font-family: 'Rubik';
 }
 
 /* Theme Toggle Button */
@@ -452,3 +452,24 @@ height: 100vh;
     inset: 5px;
     border-radius: 15px;
 }
+        .bubble {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #E648C9;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: bubble-animation 0.8s ease-out;
+        }
+        @keyframes bubble-animation {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(3);
+                opacity: 0;
+            }
+        }
+        
+        
